@@ -74,6 +74,7 @@ body {
 	width: 100%;
 	max-width: 35rem;
 	border-radius: 1rem;
+	text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -97,7 +98,11 @@ body {
 		margin-bottom: 2rem;
 	}
 
+	.time:last-child {
+		margin-right: 0;
+	}
+
 	.image-container img {
-		width: 70%;
+		width: 80%;
 	}
 }
