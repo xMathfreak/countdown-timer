@@ -9,8 +9,7 @@
 body {
 	font-size: 22px;
 	font-family: "Montserrat";
-	color: white;
-	background-color: #141414;
+	background-color: #bcccdc;
 }
 
 .timer-container {
@@ -29,14 +28,15 @@ body {
 }
 
 .time {
-	background-color: green;
+	background-color: #063251;
 	width: 5rem;
 	margin-right: 1rem;
+	color: #fff;
 }
 
 #elapsed {
 	display: none;
-	background-color: red;
+	background-color: #f00;
 	width: 12rem;
 	justify-self: center;
 }
@@ -52,15 +52,20 @@ body {
 }
 
 .info-container h3 {
+	color: #0b64a4;
+	text-transform: uppercase;
 	font-size: 1.75rem;
 	line-height: 1.5;
 }
 
 .info-container h4 {
+	text-transform: capitalize;
+	letter-spacing: 4px;
 	line-height: 1;
 }
 
 .info-container p {
+	color: #48647f;
 	margin: 2rem 0;
 	font-size: 16px;
 }

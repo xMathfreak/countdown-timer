@@ -3,7 +3,7 @@ const second = 1000,
 	  hour 	 = minute * 60,
 	  day	 = hour * 24;
 
-const targetDate = new Date("11:30 Feb 25, 2024").getTime(),
+const targetDate = new Date("11:30 Mar 1, 2024").getTime(),
 x = setInterval(() => {
 	const now = new Date().getTime(),
 		 dist = targetDate - now;
