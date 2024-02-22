@@ -1,12 +1,14 @@
 const second = 1000,
-	  minute = second * 60,
-	  hour 	 = minute * 60,
-	  day	 = hour * 24;
+	minute	= second * 60,
+	hour	= minute * 60,
+	day 	= hour * 24;
 
-const targetDate = new Date("11:30 Mar 1, 2024").getTime(),
-x = setInterval(() => {
-	const now = new Date().getTime(),
-		 dist = targetDate - now;
+const targetDate = new Date("11:30 Mar 1, 2024");
+document.getElementById("target-date").innerText = `Giveaway ends on ${targetDate.toUTCString().replace(":00 GMT", "")}`;
+
+const x = setInterval(() => {
+	const now = new Date(),
+		dist = targetDate - now;
 
 	if (dist <= 0) {
 		const t = document.getElementsByClassName("time");
