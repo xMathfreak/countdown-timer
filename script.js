@@ -3,7 +3,7 @@ const second = 1000,
 	hour	= minute * 60,
 	day 	= hour * 24;
 
-const targetDate = new Date("11:30 Mar 1, 2024");
+const targetDate = new Date("11:30 Mar 5, 2024");
 document.getElementById("target-date").innerText = `Giveaway ends on ${targetDate.toUTCString().replace(":00 GMT", "")}`;
 
 const x = setInterval(() => {
